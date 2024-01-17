@@ -18,7 +18,6 @@ public class opportunity extends baseTest implements opportunityPage,opportunity
 		JavascriptExecutor js = (JavascriptExecutor)driver;
 		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		
-		//String generatedString = RandomStringUtils.randomAlphanumeric(5); //creatingRandomString
 		driver.findElement(newBtn).click();
 		driver.findElement(opportunityName).sendKeys(name);
 		
@@ -49,7 +48,6 @@ public class opportunity extends baseTest implements opportunityPage,opportunity
 		WebElement toastMsg = driver.findElement(toastMessage);
 		wait.until(ExpectedConditions.visibilityOf(toastMsg));
 		String currentUrlOfOpportunity = driver.getCurrentUrl();
-		//String toastMsg_OpportunityName = toastMsg.getText();
 		
 		String[] arr = currentUrlOfOpportunity.split("/");
 		String opportunityId = arr[6];

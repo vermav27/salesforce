@@ -21,7 +21,6 @@ public class verifyOpportunityCreation extends baseTest{
 		String actualOpportunityName = "testOpportunity_" + generatedString;
 		home.goToOpportunityTab();
 		String createdOpportunityId = opportunity.createOpportunity(actualOpportunityName);
-		System.out.println(createdOpportunityId);
 		opportunityDetail.OpenOpportunityAndVerifyCreation(createdOpportunityId,actualOpportunityName);
 		
 	}
