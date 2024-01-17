@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-17T17:32:52 IST" name="Default suite" finished-at="2024-01-17T17:33:33 IST" duration-ms="40446">
+  <suite started-at="2024-01-17T18:33:46 IST" name="Default suite" finished-at="2024-01-17T18:34:43 IST" duration-ms="56245">
     <groups>
     </groups>
-    <test started-at="2024-01-17T17:32:52 IST" name="Default test" finished-at="2024-01-17T17:33:33 IST" duration-ms="40446">
+    <test started-at="2024-01-17T18:33:46 IST" name="Default test" finished-at="2024-01-17T18:34:43 IST" duration-ms="56245">
       <class name="opportunity.verifyOpportunityCreation">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:opportunity.verifyOpportunityCreation@661972b0]" started-at="2024-01-17T17:32:52 IST" name="setUp" finished-at="2024-01-17T17:32:58 IST" duration-ms="5714" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:opportunity.verifyOpportunityCreation@661972b0]" started-at="2024-01-17T18:33:46 IST" name="setUp" finished-at="2024-01-17T18:33:53 IST" duration-ms="6336" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testVerifyOpportunityCreation()[pri:0, instance:opportunity.verifyOpportunityCreation@661972b0]" started-at="2024-01-17T17:32:58 IST" name="testVerifyOpportunityCreation" finished-at="2024-01-17T17:33:32 IST" duration-ms="34177" status="PASS">
+        <test-method signature="testVerifyOpportunityCreation()[pri:0, instance:opportunity.verifyOpportunityCreation@661972b0]" started-at="2024-01-17T18:33:53 IST" name="testVerifyOpportunityCreation" finished-at="2024-01-17T18:34:42 IST" duration-ms="49543" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testVerifyOpportunityCreation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:opportunity.verifyOpportunityCreation@661972b0]" started-at="2024-01-17T17:33:32 IST" name="closeBrowser" finished-at="2024-01-17T17:33:33 IST" duration-ms="484" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:opportunity.verifyOpportunityCreation@661972b0]" started-at="2024-01-17T18:34:42 IST" name="closeBrowser" finished-at="2024-01-17T18:34:43 IST" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
