@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="home.verifyDefaultApp">
+      <class name="opportunity.verifyOpportunityCreation">
         <methods>
-          <include name="verifyDefaultApp"/>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+          <include name="testVerifyOpportunityCreation"/>
         </methods>
-      </class> <!-- home.verifyDefaultApp -->
+      </class> <!-- opportunity.verifyOpportunityCreation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

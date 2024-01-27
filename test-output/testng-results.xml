@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-17T20:26:12 IST" name="Default suite" finished-at="2024-01-17T20:26:35 IST" duration-ms="22188">
+  <suite started-at="2024-01-25T12:07:36 IST" name="Default suite" finished-at="2024-01-25T12:08:13 IST" duration-ms="37343">
     <groups>
     </groups>
-    <test started-at="2024-01-17T20:26:12 IST" name="Default test" finished-at="2024-01-17T20:26:35 IST" duration-ms="22188">
-      <class name="home.verifyDefaultApp">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:home.verifyDefaultApp@661972b0]" started-at="2024-01-17T20:26:12 IST" name="setUp" finished-at="2024-01-17T20:26:21 IST" duration-ms="8840" status="PASS">
+    <test started-at="2024-01-25T12:07:36 IST" name="Default test" finished-at="2024-01-25T12:08:13 IST" duration-ms="37343">
+      <class name="opportunity.verifyOpportunityCreation">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:opportunity.verifyOpportunityCreation@661972b0]" started-at="2024-01-25T12:07:36 IST" name="setUp" finished-at="2024-01-25T12:07:40 IST" duration-ms="4532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyDefaultApp()[pri:0, instance:home.verifyDefaultApp@661972b0]" started-at="2024-01-17T20:26:21 IST" name="verifyDefaultApp" finished-at="2024-01-17T20:26:34 IST" duration-ms="13104" status="PASS">
+        <test-method signature="testVerifyOpportunityCreation()[pri:0, instance:opportunity.verifyOpportunityCreation@661972b0]" started-at="2024-01-25T12:07:41 IST" name="testVerifyOpportunityCreation" finished-at="2024-01-25T12:08:13 IST" duration-ms="32537" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDefaultApp -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:home.verifyDefaultApp@661972b0]" started-at="2024-01-17T20:26:34 IST" name="closeBrowser" finished-at="2024-01-17T20:26:35 IST" duration-ms="191" status="PASS">
+        </test-method> <!-- testVerifyOpportunityCreation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:opportunity.verifyOpportunityCreation@661972b0]" started-at="2024-01-25T12:08:13 IST" name="closeBrowser" finished-at="2024-01-25T12:08:13 IST" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- home.verifyDefaultApp -->
+      </class> <!-- opportunity.verifyOpportunityCreation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
